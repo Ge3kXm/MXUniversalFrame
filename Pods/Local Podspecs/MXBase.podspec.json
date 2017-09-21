@@ -1,0 +1,27 @@
+{
+  "name": "MXBase",
+  "version": "0.1.0",
+  "summary": "A short description of MXBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ge3kXm/MXBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ge3kXm": "max@13322.com"
+  },
+  "source": {
+    "git": "https://github.com/Ge3kXm/MXBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MXBase/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}

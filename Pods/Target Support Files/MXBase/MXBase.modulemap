@@ -1,0 +1,6 @@
+framework module MXBase {
+  umbrella header "MXBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

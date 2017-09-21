@@ -1,0 +1,6 @@
+framework module MXHomepage {
+  umbrella header "MXHomepage-umbrella.h"
+
+  export *
+  module * { export * }
+}
