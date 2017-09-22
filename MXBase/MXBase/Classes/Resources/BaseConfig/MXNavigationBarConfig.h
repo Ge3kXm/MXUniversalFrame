@@ -45,10 +45,10 @@
 @property (nonatomic, strong) MXNavigationBarConfig *mx_preConfig;
 @property (nonatomic, strong) MXNavigationBarConfig *mx_config;
 
-@property (nonatomic, strong) id ly_configurer;
+@property (nonatomic, strong) id mx_configurer;
 
-- (void)setMx_config:(MXNavigationBarConfig *)ly_config animated:(BOOL)animated;
+- (void)setMx_config:(MXNavigationBarConfig *)mx_config animated:(BOOL)animated;
 
-- (void)setMx_config:(MXNavigationBarConfig *)ly_config configurer:(id)configurer;
+- (void)setMx_config:(MXNavigationBarConfig *)mx_config configurer:(id)configurer;
 
 @end

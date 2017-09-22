@@ -14,6 +14,7 @@
 #import "NSObject+Extension.h"
 #import "UIImage+Extension.h"
 #import "UIView+State.h"
+#import "MXBaseMacros.h"
 #import "MXBaseNavigationController.h"
 #import "MXBaseTabBarController.h"
 #import "MXBaseViewController.h"

@@ -10,4 +10,5 @@
 
 @interface MXBaseNavigationController : UINavigationController
 
+@property (nonatomic, assign) BOOL enablePanGuesture;
 @end

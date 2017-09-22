@@ -7,7 +7,12 @@
 //
 
 #import "MXBaseViewController.h"
+
+#import "LYCommonImageTitleStateView.h"
+#import "LYNetworkErrorView.h"
+
 #import "MXAppearanceManager+UICommon.h"
+#import "UIView+State.h"
 
 @interface MXBaseViewController ()
 
@@ -19,6 +24,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
+
     [self setupNavigationItem];
     [self setDefaultBackImage];
 }
@@ -41,7 +48,7 @@
 
 #pragma mark - Private
 - (UIImage *)backButtonImage {
-    return nil;
+    return MXImage(@"CheckMark");
 }
 
 - (void)defaultBackAction:(id)sender {
@@ -60,7 +67,21 @@
 }
 
 - (void)setDefaultNetErrorPageShowing:(BOOL)showing {
+    NSArray<UIView *> *views = [self viewsForShowingDefaultNetErrorPage];
     
+    [views enumerateObjectsUsingBlock:^(UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        
+        __weak typeof(obj) wo = obj;
+        __weak typeof(self) ws = self;
+        [obj mx_configureNetErrorViewWithOffsetY:[self netErrorPageOffsetForView:obj] callback:^(LYNetworkErrorView *view) {
+
+            [view hide];
+            [ws defaultNetErrorPageReloadActionForView:wo];
+        }];
+
+        [obj mx_setNetErrorViewShowing:(showing && [self shouldShowDefaultNetErrorPage])];
+        
+    }];
 }
 
 - (BOOL)shouldShowDefaultNetErrorPage {
@@ -73,7 +94,7 @@
 
 
 - (CGFloat)netErrorPageOffsetForView:(UIView *)view {
-    return 100;
+    return -100;
 }
 
 - (void)defaultNetErrorPageReloadActionForView:(UIView *)view {
@@ -85,5 +106,9 @@
 - (BOOL)needPageTracking {
     return YES;
 }
+
+@end
+////////////////////////////////////////////////////////////////////////////
+@implementation MXBaseViewController (PanBackable)
 
 @end

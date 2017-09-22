@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D21801E1F74FE3A00B84D53 /* xxx.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D21801D1F74FE3A00B84D53 /* xxx.plist */; };
+		4D2180211F74FF3D00B84D53 /* Appearance.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DDD356C1F74D0DB00C4CD23 /* Appearance.bundle */; };
+		4D2180221F74FF3D00B84D53 /* Config.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DDD356B1F74D0DB00C4CD23 /* Config.bundle */; };
+		4D2180261F74FFCE00B84D53 /* color.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D2180231F74FF8200B84D53 /* color.plist */; };
+		4D2180271F74FFCE00B84D53 /* font.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D2180241F74FF8200B84D53 /* font.plist */; };
+		4D21802A1F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2180281F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		4D5A31641F7391D200886100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31631F7391D200886100 /* AppDelegate.m */; };
 		4D5A31671F7391D200886100 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31661F7391D200886100 /* ViewController.m */; };
 		4D5A316A1F7391D200886100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A31681F7391D200886100 /* Main.storyboard */; };
@@ -41,6 +47,13 @@
 
 /* Begin PBXFileReference section */
 		395F1B32BE912050F27A6E21 /* Pods_MXBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D21801D1F74FE3A00B84D53 /* xxx.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = xxx.plist; sourceTree = "<group>"; };
+		4D2180231F74FF8200B84D53 /* color.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = color.plist; sourceTree = "<group>"; };
+		4D2180241F74FF8200B84D53 /* font.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = font.plist; sourceTree = "<group>"; };
+		4D2180251F74FF8600B84D53 /* hosts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hosts.json; sourceTree = "<group>"; };
+		4D2180281F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		4D2180291F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		4D21802B1F75192A00B84D53 /* MXPanGuestureBackable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXPanGuestureBackable.h; sourceTree = "<group>"; };
 		4D5A315F1F7391D200886100 /* MXBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5A31621F7391D200886100 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D5A31631F7391D200886100 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +114,9 @@
 		4DDD355F1F73C8FD00C4CD23 /* LYBaseStateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseStateView.m; sourceTree = "<group>"; };
 		4DDD35631F73CE2B00C4CD23 /* NSObject+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
 		4DDD35641F73CE2B00C4CD23 /* NSObject+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		4DDD356A1F74C09500C4CD23 /* MXBaseMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXBaseMacros.h; sourceTree = "<group>"; };
+		4DDD356B1F74D0DB00C4CD23 /* Config.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Config.bundle; sourceTree = "<group>"; };
+		4DDD356C1F74D0DB00C4CD23 /* Appearance.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Appearance.bundle; sourceTree = "<group>"; };
 		52603CF5D6E876DB4232D4F3 /* Pods-MXBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXBase.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MXBase/Pods-MXBase.release.xcconfig"; sourceTree = "<group>"; };
 		7D64254D0347CF2C0E5BDBAB /* Pods-MXBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXBase.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MXBase/Pods-MXBase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				4D5A31A41F73959800886100 /* .gitkeep */,
+				4DDD356C1F74D0DB00C4CD23 /* Appearance.bundle */,
+				4DDD356B1F74D0DB00C4CD23 /* Config.bundle */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -171,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				4D5A31F81F73B88A00886100 /* Categories.h */,
+				4D2180291F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.h */,
+				4D2180281F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.m */,
 				4D5A31F51F73B78E00886100 /* UIImage+Extension.h */,
 				4D5A31F61F73B78E00886100 /* UIImage+Extension.m */,
 				4DDD35571F73C6A200C4CD23 /* UIView+State.h */,
@@ -191,6 +211,7 @@
 		4D5A31A91F73959800886100 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				4DDD356A1F74C09500C4CD23 /* MXBaseMacros.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -206,6 +227,7 @@
 				4D5A31BD1F7398B100886100 /* MXBaseNavigationController.m */,
 				4D5A31C11F739B0900886100 /* MXWebViewController.h */,
 				4D5A31C21F739B0900886100 /* MXWebViewController.m */,
+				4D21802B1F75192A00B84D53 /* MXPanGuestureBackable.h */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,6 +235,9 @@
 		4D5A31BF1F7398CA00886100 /* System */ = {
 			isa = PBXGroup;
 			children = (
+				4D2180251F74FF8600B84D53 /* hosts.json */,
+				4D2180231F74FF8200B84D53 /* color.plist */,
+				4D2180241F74FF8200B84D53 /* font.plist */,
 				4D5A31651F7391D200886100 /* ViewController.h */,
 				4D5A31661F7391D200886100 /* ViewController.m */,
 				4D5A31681F7391D200886100 /* Main.storyboard */,
@@ -222,6 +247,7 @@
 				4D5A31711F7391D200886100 /* main.m */,
 				4D5A31621F7391D200886100 /* AppDelegate.h */,
 				4D5A31631F7391D200886100 /* AppDelegate.m */,
+				4D21801D1F74FE3A00B84D53 /* xxx.plist */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -369,9 +395,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2180261F74FFCE00B84D53 /* color.plist in Resources */,
+				4D2180271F74FFCE00B84D53 /* font.plist in Resources */,
+				4D2180211F74FF3D00B84D53 /* Appearance.bundle in Resources */,
+				4D2180221F74FF3D00B84D53 /* Config.bundle in Resources */,
 				4D5A316F1F7391D200886100 /* LaunchScreen.storyboard in Resources */,
 				4D5A316C1F7391D200886100 /* Assets.xcassets in Resources */,
 				4D5A316A1F7391D200886100 /* Main.storyboard in Resources */,
+				4D21801E1F74FE3A00B84D53 /* xxx.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +470,7 @@
 				4DDD35601F73CA0000C4CD23 /* LYBaseStateView.m in Sources */,
 				4DDD35651F73CE2B00C4CD23 /* NSObject+Extension.m in Sources */,
 				4DDD35611F73CA0000C4CD23 /* LYCommonImageTitleStateView.m in Sources */,
+				4D21802A1F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				4DDD35621F73CA0000C4CD23 /* LYNetworkErrorView.m in Sources */,
 				4D5A31F91F73BA0B00886100 /* MXNavigationBarConfig.m in Sources */,
 				4D5A31F41F73B40D00886100 /* MXAppearanceManager.m in Sources */,

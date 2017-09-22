@@ -35,7 +35,7 @@
     }
 //#warning fix network error image
 //    view.imageName = @"image_nonetwor";//@"image_nonetwor";
-//    view.image = LYBaseBundleImage(@"image_nonetwor");
+    view.image = MXImage(@"fanhui");
     view.imageSize =  CGSizeMake(105, 105);
     view.refreshBlock = refreshBlock;
     return view;

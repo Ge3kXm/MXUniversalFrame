@@ -1,0 +1,37 @@
+{
+    "Debug": {
+        "host": "http://app.htxk.dev",
+        "h5host": "http://m.htxk.dev/app/",
+        "shareHost": "http://m.htxk.dev/"
+    },
+    "Release": {
+        "host": "https://app.oooseed.com",
+        "h5host": "http://m.oooseed.com/app/",
+        "shareHost": "http://m.oooseed.com/"
+    },
+    "PreRelease": {
+        "host": "https://yuapp.hhlysport.com/",
+        "h5host": "https://yum.hhlysport.com/app/",
+        "shareHost": "https://yum.hhlysport.com/"
+    },
+    "Test": {
+        "host": "http://app.htxk.com",
+        "h5host": "http://m.htxk.com/app/",
+        "shareHost": "http://m.htxk.com/"
+    },
+    "PlatformTest": {
+        "host": "http://app.htxk.base",
+        "h5host": "http://m.htxk.base/app/",
+        "shareHost": "http://m.htxk.base/"
+    },
+    "BizTest": {
+        "host": "http://app.htxk.biz",
+        "h5host": "http://m.htxk.biz/app/",
+        "shareHost": "http://m.htxk.biz/"
+    },
+    "ProfitTest": {
+        "host": "http://app.htxk.profit",
+        "h5host": "http://m.htxk.profit/app/",
+        "shareHost": "http://m.htxk.profit/"
+    }
+}

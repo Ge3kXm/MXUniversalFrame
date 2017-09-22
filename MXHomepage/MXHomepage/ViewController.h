@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "MXBaseViewController.h"
+@import MXBase;
 
-@interface ViewController : UIViewController
+@interface ViewController : MXBaseViewController
 
 
 @end

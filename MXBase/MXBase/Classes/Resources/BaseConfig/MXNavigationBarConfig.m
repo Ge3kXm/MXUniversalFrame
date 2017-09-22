@@ -54,7 +54,7 @@
     [self setMx_config:mx_config animated:NO];
 }
 
-- (void)setLy_config:(MXNavigationBarConfig *)mx_config configurer:(id)configurer {
+- (void)setMx_config:(MXNavigationBarConfig *)mx_config configurer:(id)configurer {
     BOOL flag = ![configurer isEqual:[self mx_configurer]];
     NSLog(@"%d", flag);
     [self setMx_config:mx_config animated:flag];

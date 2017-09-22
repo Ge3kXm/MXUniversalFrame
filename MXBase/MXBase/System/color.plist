@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+		<key>Color1</key>
+		<string>23c270</string>
+		<key>Color2</key>
+		<string>333333</string>
+		<key>Color3</key>
+		<string>666666</string>
+		<key>Color4</key>
+		<string>999999</string>
+		<key>Color5</key>
+		<string>b5b5b5</string>
+		<key>Color6</key>
+		<string>c1c1c1</string>
+		<key>Color7</key>
+		<string>eeeeee</string>
+		<key>Color8</key>
+		<string>e5e5e5</string>
+		<key>Color9</key>
+		<string>edf1f6</string>
+		<key>Color10</key>
+		<string>ffffff</string>
+		<key>Color11</key>
+		<string>e94141</string>
+		<key>Color12</key>
+		<string>ff7452</string>
+		<key>Color13</key>
+		<string>4192f3</string>
+		<key>Color14</key>
+		<string>000000</string>
+		<key>Color15</key>
+		<string>ff8e00</string>
+		<key>Color16</key>
+		<string>89d035</string>
+		<key>Color17</key>
+		<string>22ccbf</string>
+		<key>Color18</key>
+		<string>0f0f0f</string>
+		<key>Color19</key>
+		<string>34a0e0</string>
+		<key>Color20</key>
+		<string>fc7374</string>
+		<key>Color21</key>
+		<string>fcb827</string>
+		<key>Color22</key>
+		<string>1a64b7</string>
+		<key>Color23</key>
+		<string>f8f8f8</string>
+		<key>Color24</key>
+		<string>71d77b</string>
+</dict>
+</plist>
