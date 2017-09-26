@@ -1,9 +1,8 @@
 //
 //  UIImage+Extension.h
-//  MXBase
+//  MXBaseUtils
 //
-//  Created by maRk on 2017/9/21.
-//  Copyright © 2017年 maRk. All rights reserved.
+//  Created by maRk on 2017/9/25.
 //
 
 #import <UIKit/UIKit.h>
@@ -17,6 +16,7 @@ typedef NS_ENUM(NSInteger, ColorSpreadType) {
 };
 
 @interface UIImage (Extension)
+
 /**
  *  @brief  根据颜色生产图片
  *
@@ -36,39 +36,38 @@ typedef NS_ENUM(NSInteger, ColorSpreadType) {
  */
 + (instancetype)mx_imageWithColor:(UIColor *)color;
 
-///切圆形
+/**
+ 切圆形
+ */
 - (instancetype)mx_circleImage;
-///切正方形
+
+
+/**
+ 切正方形
+ */
 - (instancetype)mx_squareImage;
 
 /**
  *  修正上传服务器后,图片的显示方向
  *
  */
-- (UIImage *)mx_fixOrientation;
+- (instancetype)mx_fixOrientation;
+
 /**
  *  按比例缩小图片
  */
-- (CGSize)mx_fixSizeWithImageSize:(CGSize)size rate:(NSInteger)rate;
-
-- (UIImage *)imageWithTintColor:(UIColor *)tintColor;
-
+- (instancetype)mx_fixSizeWithImageSize:(CGSize)size rate:(NSInteger)rate;
 
 /**
  获取渐变颜色图片
- 
- @param colors colors description
- @param type type description
- @param size size description
- @return return value description
  */
-+ (UIImage *)mx_gradientImageWithColors:(NSArray *)colors colorType:(ColorSpreadType)type size:(CGSize)size;
++ (instancetype)mx_gradientImageWithColors:(NSArray *)colors colorType:(ColorSpreadType)type size:(CGSize)size;
 
-
+///////////////////////////////////////模糊处理///////////////////////////////////////
 /* blur the current image with a box blur algoritm */
-- (UIImage*)drn_boxblurImageWithBlur:(CGFloat)blur;
+- (instancetype)drn_boxblurImageWithBlur:(CGFloat)blur;
 
 /* blur the current image with a box blur algoritm and tint with a color */
-- (UIImage*)drn_boxblurImageWithBlur:(CGFloat)blur withTintColor:(UIColor*)tintColor;
+- (instancetype)drn_boxblurImageWithBlur:(CGFloat)blur withTintColor:(UIColor*)tintColor;
 
 @end

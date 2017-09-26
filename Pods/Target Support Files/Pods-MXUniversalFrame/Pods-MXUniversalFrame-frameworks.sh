@@ -103,11 +103,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MXBase/MXBase.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MXBaseUtils/MXBaseUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MXHomepage/MXHomepage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MXBase/MXBase.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MXBaseUtils/MXBaseUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MXHomepage/MXHomepage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi

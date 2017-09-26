@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "MXBaseViewController.h"
+#import "MXTestVC1.h"
+
+@import MXBaseUtils;
 
 @interface ViewController ()
 
@@ -17,19 +19,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%@",@__FILE__);
+    MXTuple *tuple = MXTupleCreate(@"1", @"#", @"3");
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    MXBaseViewController *bvc = [[MXBaseViewController alloc] init];
-    [bvc setDefaultNetErrorPageShowing:YES];
+    MXTestVC1 *bvc = [[MXTestVC1 alloc] init];
+//    [bvc setDefaultNetErrorPageShowing:YES];
     [self.navigationController pushViewController:bvc animated:YES];
 }
 @end

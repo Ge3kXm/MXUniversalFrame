@@ -8,7 +8,7 @@
 
 #import "MXTabBarConfig.h"
 #import <objc/runtime.h>
-#import "Categories.h"
+@import MXBaseUtils;
 
 @implementation MXTabBarItemConfig
 

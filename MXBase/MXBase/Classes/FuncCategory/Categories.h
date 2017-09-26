@@ -9,8 +9,6 @@
 #ifndef Categories_h
 #define Categories_h
 
-#import "UIImage+Extension.h"
 #import "UIView+State.h"
-#import "NSObject+Extension.h"
 
 #endif /* Categories_h */

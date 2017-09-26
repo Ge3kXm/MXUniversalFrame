@@ -8,7 +8,7 @@
 
 #import "UIView+State.h"
 
-#import "MXBaseMacros.h"
+@import MXBaseUtils;
 @import Masonry;
 
 #import <objc/runtime.h>

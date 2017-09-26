@@ -35,8 +35,8 @@
 + (instancetype)whiteBaseConfig {
     MXNavigationBarConfig *config = [[self alloc] init];
     config.backgroundColor        = [UIColor whiteColor];
-//    config.backgroundImage        = [UIImage MX_imageWithColor:MXColor(11)];
-//    config.shadowImage            = [UIImage MX_imageWithColor:MXColorRGB(180, 180, 180, 0.4)];
+    config.backgroundImage        = [UIImage mx_imageWithColor:MXColor(11)];
+    config.shadowImage            = [UIImage mx_imageWithColor:MXColorRGB(180, 180, 180, 0.4)];
     config.titleColor             = [UIColor blackColor];
     config.titleTextAttributes    = @{
                                    NSForegroundColorAttributeName:[UIColor blackColor],

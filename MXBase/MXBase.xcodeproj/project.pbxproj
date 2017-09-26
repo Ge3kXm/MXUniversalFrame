@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D21801E1F74FE3A00B84D53 /* xxx.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D21801D1F74FE3A00B84D53 /* xxx.plist */; };
-		4D2180211F74FF3D00B84D53 /* Appearance.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DDD356C1F74D0DB00C4CD23 /* Appearance.bundle */; };
-		4D2180221F74FF3D00B84D53 /* Config.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DDD356B1F74D0DB00C4CD23 /* Config.bundle */; };
 		4D2180261F74FFCE00B84D53 /* color.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D2180231F74FF8200B84D53 /* color.plist */; };
 		4D2180271F74FFCE00B84D53 /* font.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D2180241F74FF8200B84D53 /* font.plist */; };
 		4D21802A1F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2180281F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		4D21802E1F789C5600B84D53 /* MXTestVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D21802D1F789C5600B84D53 /* MXTestVC1.m */; };
+		4D2180621F78AC9A00B84D53 /* MXAppearanceManager+UICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2180321F78A69A00B84D53 /* MXAppearanceManager+UICommon.m */; };
+		4D2180631F78AC9A00B84D53 /* MXAppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2180341F78A69A00B84D53 /* MXAppearanceManager.m */; };
+		4D2180641F78AC9A00B84D53 /* MXNavigationBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2180361F78A69A00B84D53 /* MXNavigationBarConfig.m */; };
+		4D2180651F78AC9A00B84D53 /* MXTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2180381F78A69A00B84D53 /* MXTabBarConfig.m */; };
 		4D5A31641F7391D200886100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31631F7391D200886100 /* AppDelegate.m */; };
 		4D5A31671F7391D200886100 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31661F7391D200886100 /* ViewController.m */; };
 		4D5A316A1F7391D200886100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5A31681F7391D200886100 /* Main.storyboard */; };
@@ -32,28 +34,33 @@
 		4D5A31E41F73A99900886100 /* YSResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31D31F739C4700886100 /* YSResourceManager.m */; };
 		4D5A31E51F73A99900886100 /* YSStringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31D51F739C4700886100 /* YSStringManager.m */; };
 		4D5A31E61F73A99900886100 /* YSStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31D71F739C4700886100 /* YSStyleManager.m */; };
-		4D5A31F01F73B06100886100 /* MXTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31EF1F73B06100886100 /* MXTabBarConfig.m */; };
-		4D5A31F31F73B36600886100 /* MXAppearanceManager+UICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31F21F73B36600886100 /* MXAppearanceManager+UICommon.m */; };
-		4D5A31F41F73B40D00886100 /* MXAppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31EB1F73B04600886100 /* MXAppearanceManager.m */; };
-		4D5A31F71F73B78E00886100 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31F61F73B78E00886100 /* UIImage+Extension.m */; };
-		4D5A31F91F73BA0B00886100 /* MXNavigationBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A31ED1F73B04600886100 /* MXNavigationBarConfig.m */; };
 		4DDD35591F73C6A200C4CD23 /* UIView+State.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD35581F73C6A200C4CD23 /* UIView+State.m */; };
 		4DDD35601F73CA0000C4CD23 /* LYBaseStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD355F1F73C8FD00C4CD23 /* LYBaseStateView.m */; };
 		4DDD35611F73CA0000C4CD23 /* LYCommonImageTitleStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD355B1F73C8B200C4CD23 /* LYCommonImageTitleStateView.m */; };
 		4DDD35621F73CA0000C4CD23 /* LYNetworkErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD355D1F73C8B200C4CD23 /* LYNetworkErrorView.m */; };
-		4DDD35651F73CE2B00C4CD23 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD35641F73CE2B00C4CD23 /* NSObject+Extension.m */; };
 		7AF2A7CFBEA2CC61A1A6001B /* Pods_MXBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395F1B32BE912050F27A6E21 /* Pods_MXBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		395F1B32BE912050F27A6E21 /* Pods_MXBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D21801D1F74FE3A00B84D53 /* xxx.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = xxx.plist; sourceTree = "<group>"; };
 		4D2180231F74FF8200B84D53 /* color.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = color.plist; sourceTree = "<group>"; };
 		4D2180241F74FF8200B84D53 /* font.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = font.plist; sourceTree = "<group>"; };
 		4D2180251F74FF8600B84D53 /* hosts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hosts.json; sourceTree = "<group>"; };
 		4D2180281F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		4D2180291F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		4D21802B1F75192A00B84D53 /* MXPanGuestureBackable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXPanGuestureBackable.h; sourceTree = "<group>"; };
+		4D21802C1F789C5600B84D53 /* MXTestVC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXTestVC1.h; sourceTree = "<group>"; };
+		4D21802D1F789C5600B84D53 /* MXTestVC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXTestVC1.m; sourceTree = "<group>"; };
+		4D2180311F78A69A00B84D53 /* MXAppearanceManager+UICommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MXAppearanceManager+UICommon.h"; sourceTree = "<group>"; };
+		4D2180321F78A69A00B84D53 /* MXAppearanceManager+UICommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MXAppearanceManager+UICommon.m"; sourceTree = "<group>"; };
+		4D2180331F78A69A00B84D53 /* MXAppearanceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXAppearanceManager.h; sourceTree = "<group>"; };
+		4D2180341F78A69A00B84D53 /* MXAppearanceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXAppearanceManager.m; sourceTree = "<group>"; };
+		4D2180351F78A69A00B84D53 /* MXNavigationBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXNavigationBarConfig.h; sourceTree = "<group>"; };
+		4D2180361F78A69A00B84D53 /* MXNavigationBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXNavigationBarConfig.m; sourceTree = "<group>"; };
+		4D2180371F78A69A00B84D53 /* MXTabBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXTabBarConfig.h; sourceTree = "<group>"; };
+		4D2180381F78A69A00B84D53 /* MXTabBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXTabBarConfig.m; sourceTree = "<group>"; };
+		4D2180711F78E1E400B84D53 /* MXJSHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXJSHandler.m; sourceTree = "<group>"; };
+		4D2180721F78E1E400B84D53 /* MXJSHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXJSHandler.h; sourceTree = "<group>"; };
 		4D5A315F1F7391D200886100 /* MXBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5A31621F7391D200886100 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D5A31631F7391D200886100 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,16 +100,6 @@
 		4D5A31D61F739C4700886100 /* YSStyleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSStyleManager.h; sourceTree = "<group>"; };
 		4D5A31D71F739C4700886100 /* YSStyleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSStyleManager.m; sourceTree = "<group>"; };
 		4D5A31E81F73AB5D00886100 /* MXBaseResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXBaseResource.h; sourceTree = "<group>"; };
-		4D5A31EA1F73B04600886100 /* MXAppearanceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXAppearanceManager.h; sourceTree = "<group>"; };
-		4D5A31EB1F73B04600886100 /* MXAppearanceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXAppearanceManager.m; sourceTree = "<group>"; };
-		4D5A31EC1F73B04600886100 /* MXNavigationBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXNavigationBarConfig.h; sourceTree = "<group>"; };
-		4D5A31ED1F73B04600886100 /* MXNavigationBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXNavigationBarConfig.m; sourceTree = "<group>"; };
-		4D5A31EE1F73B06100886100 /* MXTabBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXTabBarConfig.h; sourceTree = "<group>"; };
-		4D5A31EF1F73B06100886100 /* MXTabBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXTabBarConfig.m; sourceTree = "<group>"; };
-		4D5A31F11F73B36600886100 /* MXAppearanceManager+UICommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MXAppearanceManager+UICommon.h"; sourceTree = "<group>"; };
-		4D5A31F21F73B36600886100 /* MXAppearanceManager+UICommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MXAppearanceManager+UICommon.m"; sourceTree = "<group>"; };
-		4D5A31F51F73B78E00886100 /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		4D5A31F61F73B78E00886100 /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		4D5A31F81F73B88A00886100 /* Categories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
 		4DDD35571F73C6A200C4CD23 /* UIView+State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+State.h"; sourceTree = "<group>"; };
 		4DDD35581F73C6A200C4CD23 /* UIView+State.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+State.m"; sourceTree = "<group>"; };
@@ -112,11 +109,6 @@
 		4DDD355D1F73C8B200C4CD23 /* LYNetworkErrorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNetworkErrorView.m; sourceTree = "<group>"; };
 		4DDD355E1F73C8FD00C4CD23 /* LYBaseStateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseStateView.h; sourceTree = "<group>"; };
 		4DDD355F1F73C8FD00C4CD23 /* LYBaseStateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseStateView.m; sourceTree = "<group>"; };
-		4DDD35631F73CE2B00C4CD23 /* NSObject+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
-		4DDD35641F73CE2B00C4CD23 /* NSObject+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
-		4DDD356A1F74C09500C4CD23 /* MXBaseMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXBaseMacros.h; sourceTree = "<group>"; };
-		4DDD356B1F74D0DB00C4CD23 /* Config.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Config.bundle; sourceTree = "<group>"; };
-		4DDD356C1F74D0DB00C4CD23 /* Appearance.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Appearance.bundle; sourceTree = "<group>"; };
 		52603CF5D6E876DB4232D4F3 /* Pods-MXBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXBase.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MXBase/Pods-MXBase.release.xcconfig"; sourceTree = "<group>"; };
 		7D64254D0347CF2C0E5BDBAB /* Pods-MXBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXBase.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MXBase/Pods-MXBase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +125,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D2180301F78A69A00B84D53 /* AppearanceConfig */ = {
+			isa = PBXGroup;
+			children = (
+				4D2180311F78A69A00B84D53 /* MXAppearanceManager+UICommon.h */,
+				4D2180321F78A69A00B84D53 /* MXAppearanceManager+UICommon.m */,
+				4D2180331F78A69A00B84D53 /* MXAppearanceManager.h */,
+				4D2180341F78A69A00B84D53 /* MXAppearanceManager.m */,
+				4D2180351F78A69A00B84D53 /* MXNavigationBarConfig.h */,
+				4D2180361F78A69A00B84D53 /* MXNavigationBarConfig.m */,
+				4D2180371F78A69A00B84D53 /* MXTabBarConfig.h */,
+				4D2180381F78A69A00B84D53 /* MXTabBarConfig.m */,
+			);
+			path = AppearanceConfig;
+			sourceTree = "<group>";
+		};
+		4D21806E1F78E1AE00B84D53 /* BaseHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				4D2180721F78E1E400B84D53 /* MXJSHandler.h */,
+				4D2180711F78E1E400B84D53 /* MXJSHandler.m */,
+			);
+			path = BaseHandlers;
+			sourceTree = "<group>";
+		};
 		4D5A31561F7391D200886100 = {
 			isa = PBXGroup;
 			children = (
@@ -165,8 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				4D5A31A41F73959800886100 /* .gitkeep */,
-				4DDD356C1F74D0DB00C4CD23 /* Appearance.bundle */,
-				4DDD356B1F74D0DB00C4CD23 /* Config.bundle */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -175,30 +189,26 @@
 			isa = PBXGroup;
 			children = (
 				4D5A31A61F73959800886100 /* .gitkeep */,
+				4D21806E1F78E1AE00B84D53 /* BaseHandlers */,
 				4D5A31C41F739BAD00886100 /* Resources */,
 				4D5A31C01F73990000886100 /* View */,
-				4D5A31A71F73959800886100 /* Category */,
+				4D5A31A71F73959800886100 /* FuncCategory */,
 				4D5A31A81F73959800886100 /* Config */,
-				4D5A31A91F73959800886100 /* Constants */,
 				4D5A31AA1F73959800886100 /* Controller */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		4D5A31A71F73959800886100 /* Category */ = {
+		4D5A31A71F73959800886100 /* FuncCategory */ = {
 			isa = PBXGroup;
 			children = (
 				4D5A31F81F73B88A00886100 /* Categories.h */,
 				4D2180291F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.h */,
 				4D2180281F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.m */,
-				4D5A31F51F73B78E00886100 /* UIImage+Extension.h */,
-				4D5A31F61F73B78E00886100 /* UIImage+Extension.m */,
 				4DDD35571F73C6A200C4CD23 /* UIView+State.h */,
 				4DDD35581F73C6A200C4CD23 /* UIView+State.m */,
-				4DDD35631F73CE2B00C4CD23 /* NSObject+Extension.h */,
-				4DDD35641F73CE2B00C4CD23 /* NSObject+Extension.m */,
 			);
-			path = Category;
+			path = FuncCategory;
 			sourceTree = "<group>";
 		};
 		4D5A31A81F73959800886100 /* Config */ = {
@@ -206,14 +216,6 @@
 			children = (
 			);
 			path = Config;
-			sourceTree = "<group>";
-		};
-		4D5A31A91F73959800886100 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				4DDD356A1F74C09500C4CD23 /* MXBaseMacros.h */,
-			);
-			path = Constants;
 			sourceTree = "<group>";
 		};
 		4D5A31AA1F73959800886100 /* Controller */ = {
@@ -247,7 +249,8 @@
 				4D5A31711F7391D200886100 /* main.m */,
 				4D5A31621F7391D200886100 /* AppDelegate.h */,
 				4D5A31631F7391D200886100 /* AppDelegate.m */,
-				4D21801D1F74FE3A00B84D53 /* xxx.plist */,
+				4D21802C1F789C5600B84D53 /* MXTestVC1.h */,
+				4D21802D1F789C5600B84D53 /* MXTestVC1.m */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -269,7 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				4D5A31E81F73AB5D00886100 /* MXBaseResource.h */,
-				4D5A31E91F73B04600886100 /* BaseConfig */,
+				4D2180301F78A69A00B84D53 /* AppearanceConfig */,
 				4D5A31C51F739C4700886100 /* ResourceManager */,
 			);
 			path = Resources;
@@ -299,22 +302,6 @@
 			);
 			path = ResourceManager;
 			sourceTree = "<group>";
-		};
-		4D5A31E91F73B04600886100 /* BaseConfig */ = {
-			isa = PBXGroup;
-			children = (
-				4D5A31EA1F73B04600886100 /* MXAppearanceManager.h */,
-				4D5A31EB1F73B04600886100 /* MXAppearanceManager.m */,
-				4D5A31EC1F73B04600886100 /* MXNavigationBarConfig.h */,
-				4D5A31ED1F73B04600886100 /* MXNavigationBarConfig.m */,
-				4D5A31EE1F73B06100886100 /* MXTabBarConfig.h */,
-				4D5A31EF1F73B06100886100 /* MXTabBarConfig.m */,
-				4D5A31F11F73B36600886100 /* MXAppearanceManager+UICommon.h */,
-				4D5A31F21F73B36600886100 /* MXAppearanceManager+UICommon.m */,
-			);
-			name = BaseConfig;
-			path = MXBase/Classes/Resources/BaseConfig;
-			sourceTree = SOURCE_ROOT;
 		};
 		6948890BE3D06F83AE3E05B1 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -397,12 +384,9 @@
 			files = (
 				4D2180261F74FFCE00B84D53 /* color.plist in Resources */,
 				4D2180271F74FFCE00B84D53 /* font.plist in Resources */,
-				4D2180211F74FF3D00B84D53 /* Appearance.bundle in Resources */,
-				4D2180221F74FF3D00B84D53 /* Config.bundle in Resources */,
 				4D5A316F1F7391D200886100 /* LaunchScreen.storyboard in Resources */,
 				4D5A316C1F7391D200886100 /* Assets.xcassets in Resources */,
 				4D5A316A1F7391D200886100 /* Main.storyboard in Resources */,
-				4D21801E1F74FE3A00B84D53 /* xxx.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,10 +400,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/../Pods/Target Support Files/Pods-MXBase/Pods-MXBase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MXBaseUtils/MXBaseUtils.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXBaseUtils.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,21 +453,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2180621F78AC9A00B84D53 /* MXAppearanceManager+UICommon.m in Sources */,
+				4D2180631F78AC9A00B84D53 /* MXAppearanceManager.m in Sources */,
+				4D2180641F78AC9A00B84D53 /* MXNavigationBarConfig.m in Sources */,
+				4D2180651F78AC9A00B84D53 /* MXTabBarConfig.m in Sources */,
 				4DDD35601F73CA0000C4CD23 /* LYBaseStateView.m in Sources */,
-				4DDD35651F73CE2B00C4CD23 /* NSObject+Extension.m in Sources */,
 				4DDD35611F73CA0000C4CD23 /* LYCommonImageTitleStateView.m in Sources */,
 				4D21802A1F75055B00B84D53 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				4DDD35621F73CA0000C4CD23 /* LYNetworkErrorView.m in Sources */,
-				4D5A31F91F73BA0B00886100 /* MXNavigationBarConfig.m in Sources */,
-				4D5A31F41F73B40D00886100 /* MXAppearanceManager.m in Sources */,
+				4D21802E1F789C5600B84D53 /* MXTestVC1.m in Sources */,
 				4D5A31DE1F73A99900886100 /* YSColorManager.m in Sources */,
-				4D5A31F31F73B36600886100 /* MXAppearanceManager+UICommon.m in Sources */,
 				4D5A31DF1F73A99900886100 /* YSDimeManager.m in Sources */,
 				4D5A31E01F73A99900886100 /* YSFontManager.m in Sources */,
 				4D5A31E11F73A99900886100 /* YSImageManager.m in Sources */,
 				4D5A31E21F73A99900886100 /* YSRawManager.m in Sources */,
 				4D5A31E31F73A99900886100 /* YSResourceBase.m in Sources */,
-				4D5A31F01F73B06100886100 /* MXTabBarConfig.m in Sources */,
 				4DDD35591F73C6A200C4CD23 /* UIView+State.m in Sources */,
 				4D5A31E41F73A99900886100 /* YSResourceManager.m in Sources */,
 				4D5A31E51F73A99900886100 /* YSStringManager.m in Sources */,
@@ -489,7 +475,6 @@
 				4D5A31671F7391D200886100 /* ViewController.m in Sources */,
 				4D5A31721F7391D200886100 /* main.m in Sources */,
 				4D5A31641F7391D200886100 /* AppDelegate.m in Sources */,
-				4D5A31F71F73B78E00886100 /* UIImage+Extension.m in Sources */,
 				4D5A31C31F739B0900886100 /* MXWebViewController.m in Sources */,
 				4D5A31BB1F73989700886100 /* MXBaseViewController.m in Sources */,
 				4D5A31B81F73985500886100 /* MXBaseTabBarController.m in Sources */,

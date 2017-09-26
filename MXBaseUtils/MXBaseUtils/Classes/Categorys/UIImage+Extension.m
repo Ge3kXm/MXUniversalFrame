@@ -1,12 +1,12 @@
 //
 //  UIImage+Extension.m
-//  MXBase
+//  MXBaseUtils
 //
-//  Created by maRk on 2017/9/21.
-//  Copyright © 2017年 maRk. All rights reserved.
+//  Created by maRk on 2017/9/25.
 //
 
 #import "UIImage+Extension.h"
+
 #import <QuartzCore/QuartzCore.h>
 #import <Accelerate/Accelerate.h>
 
@@ -36,7 +36,7 @@
     return [self mx_imageWithColor:color withSize:CGSizeMake(1, 1)];
 }
 
-- (UIImage *)mx_circleImage {
+- (instancetype)mx_circleImage {
     CGFloat scale = self.scale;
     CGFloat originWidth  = self.size.width * scale;
     CGFloat originHeight = self.size.height * scale;
@@ -81,7 +81,7 @@
     return squareImage;
 }
 
-- (UIImage *)mx_fixOrientation {
+- (instancetype)mx_fixOrientation {
     if(self.imageOrientation == UIImageOrientationUp) return self;
     CGAffineTransform transform = CGAffineTransformIdentity;
     
@@ -141,32 +141,32 @@
     return img;
 }
 
-- (CGSize)mx_fixSizeWithImageSize:(CGSize)size rate:(NSInteger)rate {
-    CGFloat photoWidth = size.width;
-    
-    CGFloat aspectRatio = size.width / size.height;
-    CGFloat multiple = [UIScreen mainScreen].scale;
-    CGFloat pixelWidth = photoWidth * multiple / rate;
-    
-    if (iPhone5_1 || iPhone4S_1) {
-        if (pixelWidth > iPhone5preferredMaxWidth_1) {
-            pixelWidth = iPhone5preferredMaxWidth_1;
-        }
-    } else if (iPhone6s_1) {
-        if (pixelWidth > iPhone6spreferredMaxWidth_1) {
-            pixelWidth = iPhone6spreferredMaxWidth_1;
-        }
-    } else if (iPhone6SP_1) {
-        if (pixelWidth > iPhone6sPluspreferredMaxWidth_1) {
-            pixelWidth = iPhone6sPluspreferredMaxWidth_1;
-        }
-    }
-    CGFloat pixelHeight = pixelWidth / aspectRatio;
-    
-    return CGSizeMake(pixelWidth, pixelHeight);
-}
+//- (CGSize)mx_fixSizeWithImageSize:(CGSize)size rate:(NSInteger)rate {
+//    CGFloat photoWidth = size.width;
+//
+//    CGFloat aspectRatio = size.width / size.height;
+//    CGFloat multiple = [UIScreen mainScreen].scale;
+//    CGFloat pixelWidth = photoWidth * multiple / rate;
+//
+//    if (iPhone5_1 || iPhone4S_1) {
+//        if (pixelWidth > iPhone5preferredMaxWidth_1) {
+//            pixelWidth = iPhone5preferredMaxWidth_1;
+//        }
+//    } else if (iPhone6s_1) {
+//        if (pixelWidth > iPhone6spreferredMaxWidth_1) {
+//            pixelWidth = iPhone6spreferredMaxWidth_1;
+//        }
+//    } else if (iPhone6SP_1) {
+//        if (pixelWidth > iPhone6sPluspreferredMaxWidth_1) {
+//            pixelWidth = iPhone6sPluspreferredMaxWidth_1;
+//        }
+//    }
+//    CGFloat pixelHeight = pixelWidth / aspectRatio;
+//
+//    return CGSizeMake(pixelWidth, pixelHeight);
+//}
 
-- (UIImage*)imageWithTintColor:(UIColor*)tintColor {
+- (instancetype)imageWithTintColor:(UIColor*)tintColor {
     
     UIGraphicsBeginImageContextWithOptions(self.size, NO, 0.0f);
     [tintColor setFill];
@@ -189,7 +189,7 @@
  @param size size description
  @return return value description
  */
-+ (UIImage *)mx_gradientImageWithColors:(NSArray *)colors colorType:(ColorSpreadType)type size:(CGSize)size {
++ (instancetype)mx_gradientImageWithColors:(NSArray *)colors colorType:(ColorSpreadType)type size:(CGSize)size {
     NSMutableArray *ar = [NSMutableArray array];
     for(UIColor *c in colors) {
         [ar addObject:(id)c.CGColor];
@@ -233,7 +233,7 @@
 
 
 
-- (UIImage*)drn_boxblurImageWithBlur:(CGFloat)blur
+- (instancetype)drn_boxblurImageWithBlur:(CGFloat)blur
 {
     if (blur < 0.f || blur > 1.f) {
         blur = 0.5f;
@@ -311,7 +311,7 @@
     return returnImage;
 }
 
-- (UIImage*)drn_boxblurImageWithBlur:(CGFloat)blur withTintColor:(UIColor *)tintColor
+- (instancetype)drn_boxblurImageWithBlur:(CGFloat)blur withTintColor:(UIColor *)tintColor
 {
     if (blur < 0.f || blur > 1.f) {
         blur = 0.5f;

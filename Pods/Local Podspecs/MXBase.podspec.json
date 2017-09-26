@@ -19,9 +19,17 @@
     "ios": "8.0"
   },
   "source_files": "MXBase/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "Masonry": [
 
+    ],
+    "MXBaseUtils": [
+
     ]
-  }
+  },
+  "prefix_header_contents": [
+    "@import MXBaseUtils;",
+    "@import Masonry;"
+  ]
 }

@@ -10,12 +10,12 @@ workspace 'MXUF'
 
 target 'MXUniversalFrame' do
 	project ‘MXUF/MXUniversalFrame.xcodeproj’
-
 	pod ‘MXHomepage’, :path => ‘MXHomepage’
 end
 
 target ‘MXBase’ do
 	project ‘MXBase/MXBase.xcodeproj’
+	pod ‘MXBaseUtils’, :path => ‘MXBaseUtils’
 	pod ‘Masonry’
 end
 

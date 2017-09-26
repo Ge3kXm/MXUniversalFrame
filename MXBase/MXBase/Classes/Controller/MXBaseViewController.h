@@ -18,7 +18,6 @@
 @property (nonatomic, copy  ) void (^baseBackAction)(UIViewController *vc);
 
 ///////////////////////////////////////设置样式///////////////////////////////////////
-
 /**
  返回一个样式，此样式在ViewWillAppear中显示
  返回nil则不会配置

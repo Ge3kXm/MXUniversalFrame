@@ -10,15 +10,15 @@
 #endif
 #endif
 
-#import "Categories.h"
-#import "NSObject+Extension.h"
-#import "UIImage+Extension.h"
-#import "UIView+State.h"
-#import "MXBaseMacros.h"
+#import "MXJSHandler.h"
 #import "MXBaseNavigationController.h"
 #import "MXBaseTabBarController.h"
 #import "MXBaseViewController.h"
+#import "MXPanGuestureBackable.h"
 #import "MXWebViewController.h"
+#import "Categories.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "UIView+State.h"
 #import "MXAppearanceManager+UICommon.h"
 #import "MXAppearanceManager.h"
 #import "MXNavigationBarConfig.h"

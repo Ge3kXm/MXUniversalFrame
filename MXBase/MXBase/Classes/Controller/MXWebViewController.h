@@ -10,4 +10,6 @@
 
 @interface MXWebViewController : MXBaseViewController
 
+- (instancetype)initWithURl:(NSString *)url;
+
 @end

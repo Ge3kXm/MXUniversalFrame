@@ -36,7 +36,7 @@
 //                self.shadowImage = [UIImage mx_imageWithColor:MXColorRGB(180, 180, 180, 0.4)];
                 self.titleColor = [UIColor blackColor];
                 self.titleTextAttributes = @{
-                                             //                                             NSFontAttributeName:[UIFont boldSystemFontOfSize:20],
+                                                                                          NSFontAttributeName:[UIFont boldSystemFontOfSize:20],
                                              NSForegroundColorAttributeName:MXColor(14),
                                              }.mutableCopy;
                 self.tintColor = [UIColor blackColor];

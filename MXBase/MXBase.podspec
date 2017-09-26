@@ -36,7 +36,15 @@ TODO: Add long description of the pod here.
   #   'MXBase' => ['MXBase/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Masonry'
+  s.dependency 'MXBaseUtils'
+
+  s.prefix_header_contents = [
+    '@import MXBaseUtils;',
+    '@import Masonry;',
+  ]
+    
+
 end

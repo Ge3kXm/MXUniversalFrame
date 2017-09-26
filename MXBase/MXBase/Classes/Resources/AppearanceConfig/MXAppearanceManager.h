@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "YSResourceManager.h"
+@import MXBaseUtils;
 
 #define LOCALIZATION(_key_) [[MXAppearanceManager defaultManager] stringWithName:_key_]
 
@@ -18,6 +19,7 @@
 #define MXColorWithAlpha(_number_, _alpha_) ([[MXAppearanceManager defaultManager] colorWithNumber:_number_ alpha:_alpha_])
 
 #define MXImage(_name_) [[MXAppearanceManager defaultManager] imageWithName:_name_]
+
 
 @interface MXAppearanceManager : NSObject
 

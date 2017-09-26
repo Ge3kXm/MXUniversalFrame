@@ -188,12 +188,14 @@
 			inputPaths = (
 				"${SRCROOT}/../Pods/Target Support Files/Pods-MXUniversalFrame/Pods-MXUniversalFrame-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MXBase/MXBase.framework",
+				"${BUILT_PRODUCTS_DIR}/MXBaseUtils/MXBaseUtils.framework",
 				"${BUILT_PRODUCTS_DIR}/MXHomepage/MXHomepage.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXBase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXBaseUtils.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXHomepage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
