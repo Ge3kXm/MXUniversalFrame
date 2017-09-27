@@ -64,7 +64,7 @@
 #define App_Temp_Path     (NSTemporaryDirectory())
 
 ///////////////////////////////////////分类宏定义///////////////////////////////////////
-#define MakeClassCategoryImp(_class_, _protocol_) \
+#define MakeClassCategoryItf(_class_, _protocol_) \
         @interface _class_ (_protocol_) <_protocol_>\
         @end
 
