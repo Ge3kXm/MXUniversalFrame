@@ -1,0 +1,6 @@
+framework module MXModuleConnector {
+  umbrella header "MXModuleConnector-umbrella.h"
+
+  export *
+  module * { export * }
+}

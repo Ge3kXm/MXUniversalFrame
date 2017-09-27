@@ -26,10 +26,14 @@
     ],
     "MXBaseUtils": [
 
+    ],
+    "MXModuleConnector": [
+
     ]
   },
   "prefix_header_contents": [
     "@import MXBaseUtils;",
-    "@import Masonry;"
+    "@import Masonry;",
+    "@import MXModuleConnector;"
   ]
 }

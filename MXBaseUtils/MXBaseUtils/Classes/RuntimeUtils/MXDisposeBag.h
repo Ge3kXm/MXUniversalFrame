@@ -21,7 +21,7 @@
 
 
 /**
- 相当于， [self ly_addToBag:obj.ly_bag];
+ 相当于， [self mx_addToBag:obj.mx_bag];
  
  @param obj obj description
  */
