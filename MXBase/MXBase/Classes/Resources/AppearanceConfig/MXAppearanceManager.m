@@ -41,7 +41,6 @@ static id __defaultInstance;
 
 - (UIFont *)fontWithNumber:(int)number {
     return [self.resManager.fontManager fontWith:[NSString stringWithFormat:@"Size%d", number]];
-//    return [UIFont systemFontOfSize:number];
 }
 
 - (UIFont *)boldFontWithNumber:(int)number {
@@ -51,7 +50,6 @@ static id __defaultInstance;
 
 - (UIColor *)colorWithNumber:(int)number {
     return [self.resManager.colorManager colorWith:[NSString stringWithFormat:@"Color%d", number]];
-//    return [UIColor redColor];
 }
 
 - (UIColor *)colorWithNumber:(int)number alpha:(double)alpha {

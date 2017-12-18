@@ -31,6 +31,14 @@
     [self setDefaultBackImage];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    MXNavigationBarConfig *config = [self navigationBarConfig];
+    if (config) {
+        [self.navigationController.navigationBar setMx_config:[self navigationBarConfig] animated:YES];
+    }
+}
+
 - (MXNavigationBarConfig *)navigationBarConfig {
     return [[MXNavigationBarConfig alloc] initWithType:MXThemeTypeDefault];
 }

@@ -19,7 +19,7 @@
 
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(100, 300, 100, 100)];
     scrollView.contentSize = CGSizeMake(1000, 100);
-    scrollView.backgroundColor = [UIColor redColor];
+    scrollView.backgroundColor = MXColor(1);
     [self.view addSubview:scrollView];
     // Do any additional setup after loading the view.
 }

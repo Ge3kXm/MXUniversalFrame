@@ -1,6 +1,0 @@
-framework module Pods_MXBase {
-  umbrella header "Pods-MXBase-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MXAppearanceManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSBundle *bundle = [NSBundle bundleForClass:self.class];
+    NSString *path = [bundle pathForResource:@"Appearance" ofType:@"bundle"];
+//    [[MXAppearanceManager defaultManager] setImgBundle:[NSBundle bundleWithPath:path]];
+    [[MXAppearanceManager defaultManager] setResBundle:[NSBundle bundleWithPath:path]];
+    
     return YES;
 }
 
