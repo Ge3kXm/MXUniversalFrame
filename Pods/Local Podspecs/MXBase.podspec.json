@@ -27,9 +27,17 @@
   "dependencies": {
     "Masonry": [
 
+    ],
+    "MXBaseUtils": [
+
+    ],
+    "MXModuleConnector": [
+
     ]
   },
   "prefix_header_contents": [
-    "@import Masonry;"
+    "@import MXBaseUtils;",
+    "@import Masonry;",
+    "@import MXModuleConnector;"
   ]
 }

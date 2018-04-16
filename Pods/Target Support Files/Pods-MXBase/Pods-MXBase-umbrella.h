@@ -10,6 +10,7 @@
 #endif
 #endif
 
-@import MXBaseUtils;
-@import Masonry;
-@import MXModuleConnector;
+
+FOUNDATION_EXPORT double Pods_MXBaseVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_MXBaseVersionString[];
+

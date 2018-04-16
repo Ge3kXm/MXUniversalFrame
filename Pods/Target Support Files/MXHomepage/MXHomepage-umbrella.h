@@ -10,6 +10,7 @@
 #endif
 #endif
 
-@import MXBaseUtils;
-@import Masonry;
-@import MXModuleConnector;
+
+FOUNDATION_EXPORT double MXHomepageVersionNumber;
+FOUNDATION_EXPORT const unsigned char MXHomepageVersionString[];
+
