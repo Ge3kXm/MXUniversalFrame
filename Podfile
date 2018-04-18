@@ -14,13 +14,13 @@ target 'MXUniversalFrame' do
 end
 
 target ‘MXBase’ do
-	project ‘MXBase/MXBase.xcodeproj’
-	pod ‘MXBaseUtils’, :path => ‘MXBaseUtils’
-	pod ‘Masonry’
-	pod ‘MXModuleConnector’, :path => ‘MXModuleConnector’
+    project ‘MXBase/MXBase.xcodeproj’
+    pod ‘MXBaseUtils’, :path => ‘MXBaseUtils’
+    pod ‘Masonry’
+    pod ‘MXModuleConnector’, :path => ‘MXModuleConnector’
 end
 
 target ‘MXHomepage’ do
-	project ‘MXHomepage/MXHomepage.xcodeproj’
-	pod ‘MXBase’, :path => ‘MXBase’
+    project ‘MXHomepage/MXHomepage.xcodeproj’
+    pod ‘MXBase’, :path => ‘MXBase’
 end

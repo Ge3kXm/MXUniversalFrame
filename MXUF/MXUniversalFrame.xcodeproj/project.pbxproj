@@ -7,49 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D2820152084939400863C03 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4D281FBA2084939300863C03 /* LICENSE */; };
-		4D2820162084939400863C03 /* YSColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FC82084939300863C03 /* YSColorManager.m */; };
-		4D2820172084939400863C03 /* YSRawManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FC92084939300863C03 /* YSRawManager.m */; };
-		4D2820182084939400863C03 /* YSFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FCC2084939300863C03 /* YSFontManager.m */; };
-		4D2820192084939400863C03 /* YSImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FCD2084939300863C03 /* YSImageManager.m */; };
-		4D28201A2084939400863C03 /* YSDimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FCE2084939300863C03 /* YSDimeManager.m */; };
-		4D28201B2084939400863C03 /* YSStringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FCF2084939300863C03 /* YSStringManager.m */; };
-		4D28201C2084939400863C03 /* YSResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FD02084939300863C03 /* YSResourceManager.m */; };
-		4D28201D2084939400863C03 /* YSStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FD22084939300863C03 /* YSStyleManager.m */; };
-		4D28201E2084939400863C03 /* YSResourceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FD42084939300863C03 /* YSResourceBase.m */; };
-		4D28201F2084939400863C03 /* MXAppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FD62084939300863C03 /* MXAppearanceManager.m */; };
-		4D2820202084939400863C03 /* MXNavigationBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FD82084939300863C03 /* MXNavigationBarConfig.m */; };
-		4D2820212084939400863C03 /* MXAppearanceManager+UICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FDB2084939300863C03 /* MXAppearanceManager+UICommon.m */; };
-		4D2820222084939400863C03 /* MXTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FDD2084939300863C03 /* MXTabBarConfig.m */; };
-		4D2820232084939400863C03 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4D281FDF2084939300863C03 /* .gitkeep */; };
-		4D2820242084939400863C03 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FE42084939300863C03 /* UINavigationController+FDFullscreenPopGesture.m */; };
-		4D2820252084939400863C03 /* UIView+State.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FE52084939300863C03 /* UIView+State.m */; };
-		4D2820262084939400863C03 /* MXJSHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FE72084939300863C03 /* MXJSHandler.m */; };
-		4D2820272084939400863C03 /* MXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FED2084939400863C03 /* MXBaseViewController.m */; };
-		4D2820282084939400863C03 /* MXBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FEF2084939400863C03 /* MXBaseTabBarController.m */; };
-		4D2820292084939400863C03 /* MXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FF12084939400863C03 /* MXBaseNavigationController.m */; };
-		4D28202A2084939400863C03 /* MXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FF22084939400863C03 /* MXWebViewController.m */; };
-		4D28202B2084939400863C03 /* LYCommonImageTitleStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FF52084939400863C03 /* LYCommonImageTitleStateView.m */; };
-		4D28202C2084939400863C03 /* LYBaseStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FF62084939400863C03 /* LYBaseStateView.m */; };
-		4D28202D2084939400863C03 /* LYNetworkErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FF82084939400863C03 /* LYNetworkErrorView.m */; };
-		4D28202E2084939400863C03 /* MXTestVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FFD2084939400863C03 /* MXTestVC1.m */; };
-		4D28202F2084939400863C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D281FFE2084939400863C03 /* Assets.xcassets */; };
-		4D2820302084939400863C03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D281FFF2084939400863C03 /* ViewController.m */; };
-		4D2820312084939400863C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2820002084939400863C03 /* LaunchScreen.storyboard */; };
-		4D2820322084939400863C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2820022084939400863C03 /* Main.storyboard */; };
-		4D2820332084939400863C03 /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D2820042084939400863C03 /* test.plist */; };
-		4D2820342084939400863C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2820052084939400863C03 /* main.m */; };
-		4D2820352084939400863C03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2820072084939400863C03 /* AppDelegate.m */; };
-		4D2820362084939400863C03 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D2820082084939400863C03 /* Info.plist */; };
-		4D2820372084939400863C03 /* Appearance.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D28200B2084939400863C03 /* Appearance.bundle */; };
-		4D2820382084939400863C03 /* color.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D28200C2084939400863C03 /* color.plist */; };
-		4D2820392084939400863C03 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4D28200D2084939400863C03 /* .gitkeep */; };
-		4D28203A2084939400863C03 /* font.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D28200E2084939400863C03 /* font.plist */; };
-		4D28203B2084939400863C03 /* hosts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D28200F2084939400863C03 /* hosts.json */; };
-		4D28203C2084939400863C03 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D2820102084939400863C03 /* README.md */; };
-		4D28203D2084939400863C03 /* MXBase.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4D2820112084939400863C03 /* MXBase.podspec */; };
 		4DD0953D1F7214A700276ABD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0953C1F7214A700276ABD /* AppDelegate.m */; };
-		4DD095401F7214A700276ABD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0953F1F7214A700276ABD /* ViewController.m */; };
 		4DD095431F7214A700276ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD095411F7214A700276ABD /* Main.storyboard */; };
 		4DD095451F7214A700276ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD095441F7214A700276ABD /* Assets.xcassets */; };
 		4DD095481F7214A700276ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD095461F7214A700276ABD /* LaunchScreen.storyboard */; };
@@ -57,88 +15,7 @@
 		E5484D5CB3CB40B13B9F503A /* Pods_MXUniversalFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718597937FFB99617A70C22A /* Pods_MXUniversalFrame.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4D2820132084939400863C03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D281FBB2084939300863C03 /* MXBase.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4D5A315F1F7391D200886100;
-			remoteInfo = MXBase;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4D281FBA2084939300863C03 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4D281FBB2084939300863C03 /* MXBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MXBase.xcodeproj; sourceTree = "<group>"; };
-		4D281FC32084939300863C03 /* YSFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSFontManager.h; sourceTree = "<group>"; };
-		4D281FC42084939300863C03 /* YSDimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSDimeManager.h; sourceTree = "<group>"; };
-		4D281FC52084939300863C03 /* YSImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSImageManager.h; sourceTree = "<group>"; };
-		4D281FC62084939300863C03 /* YSStringManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSStringManager.h; sourceTree = "<group>"; };
-		4D281FC72084939300863C03 /* YSResourceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSResourceBase.h; sourceTree = "<group>"; };
-		4D281FC82084939300863C03 /* YSColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSColorManager.m; sourceTree = "<group>"; };
-		4D281FC92084939300863C03 /* YSRawManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSRawManager.m; sourceTree = "<group>"; };
-		4D281FCA2084939300863C03 /* YSStyleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSStyleManager.h; sourceTree = "<group>"; };
-		4D281FCB2084939300863C03 /* YSResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSResourceManager.h; sourceTree = "<group>"; };
-		4D281FCC2084939300863C03 /* YSFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSFontManager.m; sourceTree = "<group>"; };
-		4D281FCD2084939300863C03 /* YSImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSImageManager.m; sourceTree = "<group>"; };
-		4D281FCE2084939300863C03 /* YSDimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSDimeManager.m; sourceTree = "<group>"; };
-		4D281FCF2084939300863C03 /* YSStringManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStringManager.m; sourceTree = "<group>"; };
-		4D281FD02084939300863C03 /* YSResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSResourceManager.m; sourceTree = "<group>"; };
-		4D281FD12084939300863C03 /* YSRawManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSRawManager.h; sourceTree = "<group>"; };
-		4D281FD22084939300863C03 /* YSStyleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStyleManager.m; sourceTree = "<group>"; };
-		4D281FD32084939300863C03 /* YSColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSColorManager.h; sourceTree = "<group>"; };
-		4D281FD42084939300863C03 /* YSResourceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSResourceBase.m; sourceTree = "<group>"; };
-		4D281FD62084939300863C03 /* MXAppearanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXAppearanceManager.m; sourceTree = "<group>"; };
-		4D281FD72084939300863C03 /* MXAppearanceManager+UICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MXAppearanceManager+UICommon.h"; sourceTree = "<group>"; };
-		4D281FD82084939300863C03 /* MXNavigationBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXNavigationBarConfig.m; sourceTree = "<group>"; };
-		4D281FD92084939300863C03 /* MXTabBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTabBarConfig.h; sourceTree = "<group>"; };
-		4D281FDA2084939300863C03 /* MXAppearanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXAppearanceManager.h; sourceTree = "<group>"; };
-		4D281FDB2084939300863C03 /* MXAppearanceManager+UICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MXAppearanceManager+UICommon.m"; sourceTree = "<group>"; };
-		4D281FDC2084939300863C03 /* MXNavigationBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXNavigationBarConfig.h; sourceTree = "<group>"; };
-		4D281FDD2084939300863C03 /* MXTabBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTabBarConfig.m; sourceTree = "<group>"; };
-		4D281FDE2084939300863C03 /* MXBaseResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXBaseResource.h; sourceTree = "<group>"; };
-		4D281FDF2084939300863C03 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		4D281FE12084939300863C03 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		4D281FE22084939300863C03 /* UIView+State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+State.h"; sourceTree = "<group>"; };
-		4D281FE32084939300863C03 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
-		4D281FE42084939300863C03 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		4D281FE52084939300863C03 /* UIView+State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+State.m"; sourceTree = "<group>"; };
-		4D281FE72084939300863C03 /* MXJSHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXJSHandler.m; sourceTree = "<group>"; };
-		4D281FE82084939300863C03 /* MXJSHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXJSHandler.h; sourceTree = "<group>"; };
-		4D281FEA2084939300863C03 /* MXBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXBaseTabBarController.h; sourceTree = "<group>"; };
-		4D281FEB2084939400863C03 /* MXBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXBaseNavigationController.h; sourceTree = "<group>"; };
-		4D281FEC2084939400863C03 /* MXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXWebViewController.h; sourceTree = "<group>"; };
-		4D281FED2084939400863C03 /* MXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXBaseViewController.m; sourceTree = "<group>"; };
-		4D281FEE2084939400863C03 /* MXPanGuestureBackable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPanGuestureBackable.h; sourceTree = "<group>"; };
-		4D281FEF2084939400863C03 /* MXBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXBaseTabBarController.m; sourceTree = "<group>"; };
-		4D281FF02084939400863C03 /* MXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXBaseViewController.h; sourceTree = "<group>"; };
-		4D281FF12084939400863C03 /* MXBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXBaseNavigationController.m; sourceTree = "<group>"; };
-		4D281FF22084939400863C03 /* MXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXWebViewController.m; sourceTree = "<group>"; };
-		4D281FF42084939400863C03 /* LYNetworkErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetworkErrorView.h; sourceTree = "<group>"; };
-		4D281FF52084939400863C03 /* LYCommonImageTitleStateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCommonImageTitleStateView.m; sourceTree = "<group>"; };
-		4D281FF62084939400863C03 /* LYBaseStateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBaseStateView.m; sourceTree = "<group>"; };
-		4D281FF72084939400863C03 /* LYCommonImageTitleStateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCommonImageTitleStateView.h; sourceTree = "<group>"; };
-		4D281FF82084939400863C03 /* LYNetworkErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNetworkErrorView.m; sourceTree = "<group>"; };
-		4D281FF92084939400863C03 /* LYBaseStateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseStateView.h; sourceTree = "<group>"; };
-		4D281FFC2084939400863C03 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4D281FFD2084939400863C03 /* MXTestVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTestVC1.m; sourceTree = "<group>"; };
-		4D281FFE2084939400863C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D281FFF2084939400863C03 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4D2820012084939400863C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4D2820032084939400863C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D2820042084939400863C03 /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
-		4D2820052084939400863C03 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D2820062084939400863C03 /* MXTestVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTestVC1.h; sourceTree = "<group>"; };
-		4D2820072084939400863C03 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4D2820082084939400863C03 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D2820092084939400863C03 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4D28200B2084939400863C03 /* Appearance.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Appearance.bundle; sourceTree = "<group>"; };
-		4D28200C2084939400863C03 /* color.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = color.plist; sourceTree = "<group>"; };
-		4D28200D2084939400863C03 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		4D28200E2084939400863C03 /* font.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = font.plist; sourceTree = "<group>"; };
-		4D28200F2084939400863C03 /* hosts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hosts.json; sourceTree = "<group>"; };
-		4D2820102084939400863C03 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4D2820112084939400863C03 /* MXBase.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MXBase.podspec; sourceTree = "<group>"; };
 		4DD095381F7214A700276ABD /* MXUniversalFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXUniversalFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD0953B1F7214A700276ABD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DD0953C1F7214A700276ABD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -174,201 +51,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4D281FB92084939300863C03 /* MXBase */ = {
-			isa = PBXGroup;
-			children = (
-				4D281FBA2084939300863C03 /* LICENSE */,
-				4D281FBB2084939300863C03 /* MXBase.xcodeproj */,
-				4D281FBE2084939300863C03 /* MXBase */,
-				4D2820102084939400863C03 /* README.md */,
-				4D2820112084939400863C03 /* MXBase.podspec */,
-			);
-			name = MXBase;
-			path = ../MXBase;
-			sourceTree = "<group>";
-		};
-		4D281FBC2084939300863C03 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4D2820142084939400863C03 /* MXBase.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4D281FBE2084939300863C03 /* MXBase */ = {
-			isa = PBXGroup;
-			children = (
-				4D281FBF2084939300863C03 /* Classes */,
-				4D281FFB2084939400863C03 /* System */,
-				4D28200A2084939400863C03 /* Assets */,
-			);
-			path = MXBase;
-			sourceTree = "<group>";
-		};
-		4D281FBF2084939300863C03 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4D281FC02084939300863C03 /* Config */,
-				4D281FC12084939300863C03 /* Resources */,
-				4D281FDF2084939300863C03 /* .gitkeep */,
-				4D281FE02084939300863C03 /* FuncCategory */,
-				4D281FE62084939300863C03 /* BaseHandlers */,
-				4D281FE92084939300863C03 /* Controller */,
-				4D281FF32084939400863C03 /* View */,
-				4D281FFA2084939400863C03 /* Request */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		4D281FC02084939300863C03 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		4D281FC12084939300863C03 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4D281FC22084939300863C03 /* ResourceManager */,
-				4D281FD52084939300863C03 /* AppearanceConfig */,
-				4D281FDE2084939300863C03 /* MXBaseResource.h */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		4D281FC22084939300863C03 /* ResourceManager */ = {
-			isa = PBXGroup;
-			children = (
-				4D281FC32084939300863C03 /* YSFontManager.h */,
-				4D281FC42084939300863C03 /* YSDimeManager.h */,
-				4D281FC52084939300863C03 /* YSImageManager.h */,
-				4D281FC62084939300863C03 /* YSStringManager.h */,
-				4D281FC72084939300863C03 /* YSResourceBase.h */,
-				4D281FC82084939300863C03 /* YSColorManager.m */,
-				4D281FC92084939300863C03 /* YSRawManager.m */,
-				4D281FCA2084939300863C03 /* YSStyleManager.h */,
-				4D281FCB2084939300863C03 /* YSResourceManager.h */,
-				4D281FCC2084939300863C03 /* YSFontManager.m */,
-				4D281FCD2084939300863C03 /* YSImageManager.m */,
-				4D281FCE2084939300863C03 /* YSDimeManager.m */,
-				4D281FCF2084939300863C03 /* YSStringManager.m */,
-				4D281FD02084939300863C03 /* YSResourceManager.m */,
-				4D281FD12084939300863C03 /* YSRawManager.h */,
-				4D281FD22084939300863C03 /* YSStyleManager.m */,
-				4D281FD32084939300863C03 /* YSColorManager.h */,
-				4D281FD42084939300863C03 /* YSResourceBase.m */,
-			);
-			path = ResourceManager;
-			sourceTree = "<group>";
-		};
-		4D281FD52084939300863C03 /* AppearanceConfig */ = {
-			isa = PBXGroup;
-			children = (
-				4D281FD62084939300863C03 /* MXAppearanceManager.m */,
-				4D281FD72084939300863C03 /* MXAppearanceManager+UICommon.h */,
-				4D281FD82084939300863C03 /* MXNavigationBarConfig.m */,
-				4D281FD92084939300863C03 /* MXTabBarConfig.h */,
-				4D281FDA2084939300863C03 /* MXAppearanceManager.h */,
-				4D281FDB2084939300863C03 /* MXAppearanceManager+UICommon.m */,
-				4D281FDC2084939300863C03 /* MXNavigationBarConfig.h */,
-				4D281FDD2084939300863C03 /* MXTabBarConfig.m */,
-			);
-			path = AppearanceConfig;
-			sourceTree = "<group>";
-		};
-		4D281FE02084939300863C03 /* FuncCategory */ = {
-			isa = PBXGroup;
-			children = (
-				4D281FE12084939300863C03 /* UINavigationController+FDFullscreenPopGesture.h */,
-				4D281FE22084939300863C03 /* UIView+State.h */,
-				4D281FE32084939300863C03 /* Categories.h */,
-				4D281FE42084939300863C03 /* UINavigationController+FDFullscreenPopGesture.m */,
-				4D281FE52084939300863C03 /* UIView+State.m */,
-			);
-			path = FuncCategory;
-			sourceTree = "<group>";
-		};
-		4D281FE62084939300863C03 /* BaseHandlers */ = {
-			isa = PBXGroup;
-			children = (
-				4D281FE72084939300863C03 /* MXJSHandler.m */,
-				4D281FE82084939300863C03 /* MXJSHandler.h */,
-			);
-			path = BaseHandlers;
-			sourceTree = "<group>";
-		};
-		4D281FE92084939300863C03 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				4D281FEA2084939300863C03 /* MXBaseTabBarController.h */,
-				4D281FEB2084939400863C03 /* MXBaseNavigationController.h */,
-				4D281FEC2084939400863C03 /* MXWebViewController.h */,
-				4D281FED2084939400863C03 /* MXBaseViewController.m */,
-				4D281FEE2084939400863C03 /* MXPanGuestureBackable.h */,
-				4D281FEF2084939400863C03 /* MXBaseTabBarController.m */,
-				4D281FF02084939400863C03 /* MXBaseViewController.h */,
-				4D281FF12084939400863C03 /* MXBaseNavigationController.m */,
-				4D281FF22084939400863C03 /* MXWebViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		4D281FF32084939400863C03 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				4D281FF42084939400863C03 /* LYNetworkErrorView.h */,
-				4D281FF52084939400863C03 /* LYCommonImageTitleStateView.m */,
-				4D281FF62084939400863C03 /* LYBaseStateView.m */,
-				4D281FF72084939400863C03 /* LYCommonImageTitleStateView.h */,
-				4D281FF82084939400863C03 /* LYNetworkErrorView.m */,
-				4D281FF92084939400863C03 /* LYBaseStateView.h */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		4D281FFA2084939400863C03 /* Request */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Request;
-			sourceTree = "<group>";
-		};
-		4D281FFB2084939400863C03 /* System */ = {
-			isa = PBXGroup;
-			children = (
-				4D281FFC2084939400863C03 /* AppDelegate.h */,
-				4D281FFD2084939400863C03 /* MXTestVC1.m */,
-				4D281FFE2084939400863C03 /* Assets.xcassets */,
-				4D281FFF2084939400863C03 /* ViewController.m */,
-				4D2820002084939400863C03 /* LaunchScreen.storyboard */,
-				4D2820022084939400863C03 /* Main.storyboard */,
-				4D2820042084939400863C03 /* test.plist */,
-				4D2820052084939400863C03 /* main.m */,
-				4D2820062084939400863C03 /* MXTestVC1.h */,
-				4D2820072084939400863C03 /* AppDelegate.m */,
-				4D2820082084939400863C03 /* Info.plist */,
-				4D2820092084939400863C03 /* ViewController.h */,
-			);
-			path = System;
-			sourceTree = "<group>";
-		};
-		4D28200A2084939400863C03 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				4D28200B2084939400863C03 /* Appearance.bundle */,
-				4D28200C2084939400863C03 /* color.plist */,
-				4D28200D2084939400863C03 /* .gitkeep */,
-				4D28200E2084939400863C03 /* font.plist */,
-				4D28200F2084939400863C03 /* hosts.json */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		4DD0952F1F7214A700276ABD = {
 			isa = PBXGroup;
 			children = (
-				4D281FB92084939300863C03 /* MXBase */,
 				4DD0953A1F7214A700276ABD /* MXUniversalFrame */,
 				4DD095391F7214A700276ABD /* Products */,
 				C38D975B4CEBF410678EC859 /* Pods */,
@@ -458,12 +143,6 @@
 			mainGroup = 4DD0952F1F7214A700276ABD;
 			productRefGroup = 4DD095391F7214A700276ABD /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 4D281FBC2084939300863C03 /* Products */;
-					ProjectRef = 4D281FBB2084939300863C03 /* MXBase.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4DD095371F7214A700276ABD /* MXUniversalFrame */,
@@ -471,37 +150,13 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		4D2820142084939400863C03 /* MXBase.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = MXBase.app;
-			remoteRef = 4D2820132084939400863C03 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		4DD095361F7214A700276ABD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2820382084939400863C03 /* color.plist in Resources */,
 				4DD095481F7214A700276ABD /* LaunchScreen.storyboard in Resources */,
-				4D28203D2084939400863C03 /* MXBase.podspec in Resources */,
 				4DD095451F7214A700276ABD /* Assets.xcassets in Resources */,
-				4D2820232084939400863C03 /* .gitkeep in Resources */,
-				4D2820332084939400863C03 /* test.plist in Resources */,
-				4D2820322084939400863C03 /* Main.storyboard in Resources */,
-				4D28203C2084939400863C03 /* README.md in Resources */,
-				4D2820152084939400863C03 /* LICENSE in Resources */,
-				4D28203A2084939400863C03 /* font.plist in Resources */,
-				4D2820312084939400863C03 /* LaunchScreen.storyboard in Resources */,
-				4D2820392084939400863C03 /* .gitkeep in Resources */,
-				4D28202F2084939400863C03 /* Assets.xcassets in Resources */,
-				4D2820362084939400863C03 /* Info.plist in Resources */,
-				4D2820372084939400863C03 /* Appearance.bundle in Resources */,
-				4D28203B2084939400863C03 /* hosts.json in Resources */,
 				4DD095431F7214A700276ABD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,58 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2820242084939400863C03 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
-				4D28201D2084939400863C03 /* YSStyleManager.m in Sources */,
-				4D28201F2084939400863C03 /* MXAppearanceManager.m in Sources */,
-				4D2820292084939400863C03 /* MXBaseNavigationController.m in Sources */,
-				4D2820222084939400863C03 /* MXTabBarConfig.m in Sources */,
-				4D2820342084939400863C03 /* main.m in Sources */,
-				4D28201A2084939400863C03 /* YSDimeManager.m in Sources */,
-				4D28201C2084939400863C03 /* YSResourceManager.m in Sources */,
-				4D28202B2084939400863C03 /* LYCommonImageTitleStateView.m in Sources */,
-				4D2820252084939400863C03 /* UIView+State.m in Sources */,
-				4D28202D2084939400863C03 /* LYNetworkErrorView.m in Sources */,
-				4D2820192084939400863C03 /* YSImageManager.m in Sources */,
-				4D28202E2084939400863C03 /* MXTestVC1.m in Sources */,
-				4D2820272084939400863C03 /* MXBaseViewController.m in Sources */,
-				4D2820352084939400863C03 /* AppDelegate.m in Sources */,
-				4D2820182084939400863C03 /* YSFontManager.m in Sources */,
-				4D2820302084939400863C03 /* ViewController.m in Sources */,
-				4DD095401F7214A700276ABD /* ViewController.m in Sources */,
-				4D2820262084939400863C03 /* MXJSHandler.m in Sources */,
-				4D2820162084939400863C03 /* YSColorManager.m in Sources */,
-				4D28202C2084939400863C03 /* LYBaseStateView.m in Sources */,
 				4DD0954B1F7214A700276ABD /* main.m in Sources */,
-				4D2820282084939400863C03 /* MXBaseTabBarController.m in Sources */,
-				4D28201B2084939400863C03 /* YSStringManager.m in Sources */,
-				4D2820212084939400863C03 /* MXAppearanceManager+UICommon.m in Sources */,
-				4D28202A2084939400863C03 /* MXWebViewController.m in Sources */,
-				4D2820202084939400863C03 /* MXNavigationBarConfig.m in Sources */,
 				4DD0953D1F7214A700276ABD /* AppDelegate.m in Sources */,
-				4D28201E2084939400863C03 /* YSResourceBase.m in Sources */,
-				4D2820172084939400863C03 /* YSRawManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4D2820002084939400863C03 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D2820012084939400863C03 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4D2820022084939400863C03 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D2820032084939400863C03 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4DD095411F7214A700276ABD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -758,7 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MXUniversalFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.max1ao.MXUniversalFrame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mother.fucker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -772,7 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MXUniversalFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.max1ao.MXUniversalFrame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mother.fucker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
