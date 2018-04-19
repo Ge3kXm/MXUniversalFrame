@@ -13,4 +13,10 @@
    <FileRef
       location = "group:MXHomepage/MXHomepage.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../MXBase/MXBase.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../MXHomepage/MXHomepage.xcodeproj">
+   </FileRef>
 </Workspace>

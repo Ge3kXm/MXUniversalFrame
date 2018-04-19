@@ -11,20 +11,20 @@ PODS:
 
 DEPENDENCIES:
   - Masonry
-  - MXBase (from `MXBase`)
-  - MXBaseUtils (from `MXBaseUtils`)
-  - MXHomepage (from `MXHomepage`)
-  - MXModuleConnector (from `MXModuleConnector`)
+  - MXBase (from `../MXBase`)
+  - MXBaseUtils (from `../MXBaseUtils`)
+  - MXHomepage (from `../MXHomepage`)
+  - MXModuleConnector (from `../MXModuleConnector`)
 
 EXTERNAL SOURCES:
   MXBase:
-    :path: MXBase
+    :path: ../MXBase
   MXBaseUtils:
-    :path: MXBaseUtils
+    :path: ../MXBaseUtils
   MXHomepage:
-    :path: MXHomepage
+    :path: ../MXHomepage
   MXModuleConnector:
-    :path: MXModuleConnector
+    :path: ../MXModuleConnector
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -33,6 +33,6 @@ SPEC CHECKSUMS:
   MXHomepage: fd677dcac718c336a93e370954f54c4ff01b32c0
   MXModuleConnector: 24333bd8ebf1b3823a8aac20e111ad3fb299b878
 
-PODFILE CHECKSUM: f5670fec25f8d763d7593e78e8e7882a21651d3c
+PODFILE CHECKSUM: 085ca5290518fd08f833f9c7b8e74222539f8ebc
 
 COCOAPODS: 1.4.0
